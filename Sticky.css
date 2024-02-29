@@ -1,0 +1,33 @@
+header
+{
+    background-color:purple;
+    text-align:center;
+    font-style:times of roman;
+    padding:80px;
+    font-size:70px;
+    position:sticky;
+    top:0;
+    font-weight:bold;
+
+}
+.a{
+    padding:80px;
+    font-size:50px;
+    background-color:orange;
+}
+.b{
+    padding:80px;
+    font-size:50px;
+    background-color:green;
+}
+.c{
+    padding:80px;
+    font-size:50px;
+    background-color:Yellow;
+}
+.d{
+    padding:80px;
+    font-size:50px;
+    background-color:red;
+}
+	
