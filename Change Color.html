@@ -1,0 +1,38 @@
+<html>
+<head>
+<title>Website</title>
+<body>
+<center>
+<h1>CSK</h1>
+<style>
+body{
+background-color:grey;
+}
+button{
+color:violet;
+}
+h1{
+color:yellow;
+}
+</style>
+<div id="class1">
+<p><b>5-TIMES CHAMPIONS</b> </p>
+<button type="button" onClick=colorchange()>Change</button>
+</div>
+<script>
+var toggle=false;
+function colorchange(){
+const element = document.getElementById ('class1');
+if(toggle){
+element.style.color='';
+toggle=false;
+}
+else
+{
+element.style.color='red';
+toggle=true;
+}
+}
+</script>
+</body>
+</head>
